@@ -333,3 +333,5 @@ static inline mp_uint_t disable_irq(void) {
 
 // Needed for MICROPY_PY_RANDOM_SEED_INIT_FUNC.
 uint32_t rng_get(void);
+
+#define MICROPY_OBJ_REPR (MICROPY_OBJ_REPR_C)
